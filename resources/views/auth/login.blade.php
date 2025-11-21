@@ -12,16 +12,16 @@
                     <x-form-field>
                         <x-form-label for='salary'>Email</x-form-label>
                         <div class="mt-2">
-                            <x-form-input id="email" name="email" type='email' required/>
-                            <x-form-error name='email'/>
+                            <x-form-input id="email" name="email" type='email' :value="old('email')" required />
+                            <x-form-error name='email' />
                         </div>
                     </x-form-field>
 
                     <x-form-field>
                         <x-form-label for='salary'>Password</x-form-label>
                         <div class="mt-2">
-                            <x-form-input id="password" name="password" type='password' required/>
-                            <x-form-error name='password'/>
+                            <x-form-input id="password" name="password" type='password' required />
+                            <x-form-error name='password' />
                         </div>
                     </x-form-field>
                 </div>
