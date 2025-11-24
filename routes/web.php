@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
 
-//pull
+//pull jjj
 
 // Route::resource('jobs', JobController::class);
 
